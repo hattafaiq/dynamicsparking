@@ -1,16 +1,14 @@
-#def inputmobil(inputan):
-
 def main():
-    global lahan, inputan, jumlah, slot
+    #slot=0
     while True:
-        lahan=[]
-        for i in range(1,200):
-            inputan=""
-            jumlah=[]
-            slot={1,2,4,5,6,7,11,12,13}
-            inputan=input("masukan jumlah mobil")
-            jumlah=slot.add(inputan)
-            print(slot)
+        #global slot
+        lahan=0
+        inputan=""
+        slot={1,2,4,5,6,7,11,12,13}
+        inputan=input("masukan jumlah mobil= ")
+        slot.add(int(inputan))
+        jumlah=slot
+        print(jumlah)
         
 if __name__ == '__main__':
     main()
