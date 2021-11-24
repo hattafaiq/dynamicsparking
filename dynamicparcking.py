@@ -1,14 +1,14 @@
+jumlah=""
+slot=""
 def main():
-    #slot=0
+    slot={1,2,4,5,6,7,11,12,13}
     while True:
-        #global slot
+        jumlah=""
         lahan=0
-        inputan=""
-        slot={1,2,4,5,6,7,11,12,13}
+        inputan=""   
         inputan=input("masukan jumlah mobil= ")
         slot.add(int(inputan))
-        jumlah=slot
-        print(jumlah)
-        
+        print(slot)
+        #break
 if __name__ == '__main__':
     main()
